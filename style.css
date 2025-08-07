@@ -105,8 +105,8 @@ body {
     animation: gradientMove 30s ease infinite;
 
   opacity: 0;
-  transform: translateY(-400px);
-  animation: slideIn 1s ease-out forwards;
+  transform: translateY(-600px);
+  animation: slideIn 1.5s ease-out forwards;
 }
 
 @keyframes slideIn {
@@ -136,6 +136,7 @@ body {
      opacity: 0;
   transform: translateX(-300px);
   animation: slideIn 1s ease-out forwards;
+  animation-delay: 0.5s; /* Delay for half a second */
 }
 
 
@@ -552,7 +553,7 @@ footer {
 
 @media (max-width: 767px) {
   .nav {
-    padding: 0.3rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .nav h1 {
     font-size: 1rem;
@@ -650,7 +651,7 @@ footer {
 .skill-heading h3 {
     font-size: 1.5rem;
     margin-top: 0.7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .skill-heading i {
@@ -666,7 +667,7 @@ footer {
 }
 
 .work-section {
-  margin: 4rem 1rem;
+  margin: 5rem 1rem;
 }
 
 .works {
@@ -679,11 +680,12 @@ footer {
 
 .work-heading hr {
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .contact {
   flex-direction: column;
-  margin: 1rem;
+  margin: 1rem 1rem;
 }
 
 .socialmedia h6 {
